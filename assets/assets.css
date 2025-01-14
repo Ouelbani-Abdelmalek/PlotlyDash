@@ -1,0 +1,43 @@
+/* Importer Bootstrap */
+@import url("https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css");
+
+/* Styles personnalisés */
+body {
+  background-color: #1e1e1e; /* Fond Principal */
+  color: #e0e0e0; /* Texte Principal */
+}
+
+header,
+footer {
+  background-color: #3a3a3a; /* Accent */
+  color: #ffd700; /* Accent Texte */
+  padding: 10px 0;
+  text-align: center;
+}
+
+.sidebar {
+  background-color: #2e2e2e; /* Fond des Composants */
+  color: #e0e0e0; /* Texte Principal */
+  padding: 10px;
+  height: 100vh;
+}
+
+.nav-link {
+  color: #00adb5; /* Boutons et Liens */
+}
+
+.nav-link:hover {
+  color: #ffd700; /* Accent Texte au survol */
+}
+
+button {
+  background-color: #00adb5; /* Boutons */
+  color: #1e1e1e; /* Texte Boutons */
+  border: none;
+  padding: 10px;
+}
+
+button:hover {
+  background-color: #ffd700; /* Accent Texte au survol */
+  color: #1e1e1e; /* Texte Boutons au survol */
+}
